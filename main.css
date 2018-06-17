@@ -1,0 +1,98 @@
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #36393F;
+}
+
+nav {
+    background-color: #7E5FBB;
+    padding: 1em;
+
+}
+nav p {
+    font-family: "Exo", serif;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    padding-top: 0%;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 2em; 
+  font-family: "Exo", serif; 
+}
+
+h2 {
+    font-family: "Exo", serif;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+
+
+/* Search Button*/
+* {
+    box-sizing: border-box;
+    
+  }
+  form {
+    margin-left:auto;
+    margin-right:auto;
+    width: 20em;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 7px;
+    font-size: 17px;
+    border: 1px solid white;
+    float: left;
+    width: 85%;
+    background: #f1f1f1;
+    text-align: left;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 25%;
+    padding: 7px;
+    background: #7E5FBB;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+
+  }
+  
+  form.example button:hover {
+    background: #7E5FB8;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Footer */
+  footer {
+      font-family: "Exo", serif;
+      text-align: center;
+      margin-top: 520px;
+      margin-bottom: 100px;
+      color: white;
+  }
+  footer a {
+      color: white;
+  }
