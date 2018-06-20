@@ -4,6 +4,7 @@ body {
     margin-right: 0px;
     margin-left: 0px;
     background-color: #36393F;
+    text-align: center;
 }
 
 nav {
@@ -40,8 +41,12 @@ h2 {
 
 /* Search Button*/
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
     
+  }
+  form {
+    display: inline-flex;
+    margin: 0 auto;
   }
   
   /* Style the search field */
@@ -49,33 +54,34 @@ h2 {
     padding: 7px;
     font-size: 17px;
     border: 0px;
-    float: left;
-    width: 37%;
+    /*float:left;*/
+    width: 50%;
     background: #f1f1f1;
-    text-align: left;
-    margin: 0 auto;
+   
+    
   }
   
+  
   /* Style the submit button */
-  /*form.example button {
-    float: left;
-    width: 10%;
+  form.example button {
+    
+    width: 20%;
     padding: 7px;
     background: #7E5FBB;
     color: white;
     font-size: 17px;
     border: 0px;
     border-left: none; /* Prevent double borders */
-  /*  cursor: pointer;
+    cursor: pointer;
 
   }
   
-  /*form.example button:hover {
+  form.example button:hover {
     background: pink;
   } 
   
   /* Clear floats */
-  /*form.example::after {
+  form.example::after {
     content: "";
     clear: both;
     display: table;
