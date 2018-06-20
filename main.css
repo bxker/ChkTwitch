@@ -40,7 +40,7 @@ h2 {
 
 /* Search Button*/
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
     
   }
   
