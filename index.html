@@ -21,16 +21,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- The form -->
-    <form class="example" action="main.js">
-        <input type="text" placeholder="Kappa..." name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>
+    <form class="example" action="#">
+        <input type="text" id="results" placeholder="Kappa..." name="search">
+        <button onclick="return searchySearch();" type="submit"><i class="fa fa-search"></i></button>
+        
         <script>
-            function myFunction() {
-                document.getElementById("myDropdown").classList.toggle("show");
-            }  
-            
+          function searchySearch()
+            {
+                var Name = document.getElementById('results').value;
+                alert(Name);
+                return false;
+            }
+
         </script>
     </form>
+   
 </body>
 <div><footer>Copyright © <a href="https://github.com/bxker">bxker</a> 2018</footer></div>
 </html>
