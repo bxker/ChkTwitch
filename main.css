@@ -43,9 +43,6 @@ h2 {
     box-sizing: border-box;
     
   }
-  form {
-    margin: 0 auto;
-  }
   
   /* Style the search field */
   form.example input[type=text] {
@@ -56,6 +53,7 @@ h2 {
     width: 37%;
     background: #f1f1f1;
     text-align: left;
+    margin: 0 auto;
   }
   
   /* Style the submit button */
