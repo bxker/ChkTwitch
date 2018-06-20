@@ -77,7 +77,7 @@ h2 {
   } 
   
   /* Clear floats */
-  form.example::after {
+  /*form.example::after {
     content: "";
     clear: both;
     display: table;
